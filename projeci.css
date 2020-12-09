@@ -1,0 +1,74 @@
+.about h1{
+    text-align: center;
+font-size: 5vw;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: green;
+}
+.Info h3{
+    margin-top: 10vw;
+    margin-left: 5vw;
+    font-size: 2vw;
+   font-family: monospace;
+}
+
+.middle{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+ 
+}
+
+.logo{
+  width: 20%;
+  
+}
+
+   
+    
+
+.head h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10vw;
+    font-size: 3vw;
+}
+.head h3{
+    margin-top: 4vw;
+    margin-left: 5vw;
+    font-size: 2vw;
+   font-family: monospace;
+}
+.board img{
+    width: 20%;
+    margin-left: 8vw;
+}
+.link{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 4vw;
+    margin-left: 4vw;
+}
+@media screen and (max-width: 600px) {
+   .Info{
+       font-size: 2vw;
+       margin-top: 20vw;
+       margin-left: 13vw;
+       text-align: center;
+    
+   }
+   .logo img{
+      
+       width: 120%;
+       margin-left: -38vw;
+       
+   }
+  
+   }
+   .head h3{
+       margin-top: 10vw;
+       text-align: center;
+       margin-left: -10vw;
+   }
